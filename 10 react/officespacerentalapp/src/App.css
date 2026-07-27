@@ -1,0 +1,9 @@
+/* Red text for rent below 60000 */
+.textRed {
+  color: red;
+}
+
+/* Green text for rent above 60000 */
+.textGreen {
+  color: green;
+}

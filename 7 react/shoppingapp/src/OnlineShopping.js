@@ -1,0 +1,25 @@
+import React from 'react';
+import Cart from './Cart';
+
+class OnlineShopping extends React.Component {
+  render() {
+    // Array of CartInfo initializing 5 items as specified in the document
+    const CartInfo = [
+      {itemname: "Laptop", price: 80000},
+      {itemname: "TV", price: 120000},
+      {itemname: "Washing Machine", price: 50000},
+      {itemname: "Mobile", price: 30000},
+      {itemname: "Fridge", price: 70000}
+    ];
+
+    return (
+      <div className="mydiv">
+        <h1>Items Ordered :</h1>
+        {/* Pass array down via the 'item' prop */}
+        <Cart item={CartInfo} />
+      </div>
+    );
+  }
+}
+
+export default OnlineShopping;

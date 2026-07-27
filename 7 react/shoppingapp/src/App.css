@@ -1,0 +1,41 @@
+.mydiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+/* Green header styling matching screenshot */
+.mydiv h1 {
+  color: green;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table container details matching layout mockup */
+.shopping-table {
+  border-collapse: collapse;
+  width: 250px;
+  text-align: center;
+  border: 2px solid #ccc;
+}
+
+.shopping-table th, .shopping-table td {
+  border: 2px solid #ccc;
+  padding: 8px;
+}
+
+/* Headers matching mockup (green, bold text) */
+.shopping-table th {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Row texts matching mockup */
+.shopping-table td {
+  color: #72c17d; /* Soft green */
+  font-weight: 500;
+}

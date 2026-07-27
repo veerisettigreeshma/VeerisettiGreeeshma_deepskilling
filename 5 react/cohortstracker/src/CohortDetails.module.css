@@ -1,0 +1,14 @@
+/* Define a CSS class named "box" with the specified outline properties */
+.box {
+  width: 300px;              /* Width = 300px [cite: 26] */
+  display: inline-block;     /* Display = inline block [cite: 27] */
+  margin: 10px;              /* Overall 10px margin [cite: 28] */
+  padding: 10px 20px;        /* Top and bottom padding as 10px, left and right as 20px [cite: 29, 30] */
+  border: 1px solid #ccc;    /* 1px border outline (light gray matches screenshot closely, or use "black" as written) [cite: 31] */
+  border-radius: 10px;       /* A border radius of 10px [cite: 32] */
+}
+
+/* Define a CSS style for HTML <dt> element using tag selector. Set the font weight to 500 */
+.box dt {
+  font-weight: 500;          /* [cite: 33] */
+}
